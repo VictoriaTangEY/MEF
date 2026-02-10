@@ -1,0 +1,36 @@
+{
+  "RUN_SETTING": {
+    "MASTERPATH": "C:/Users/UV665AR/OneDrive - EY/2.KHB/99_Data_Server",
+    "OUTPUTPATH": "C:/Users/UV665AR/OneDrive - EY/2.KHB/99_Data_Server_out",
+
+    "RUN_YYMM": 20241231,
+    "PREV_YYMM": 20241130,
+    "RUN_SCOPE": ["LOAN", "NON_LOAN"],
+    "PARAM_VERSION": 20241231,
+    "SCENARIO_VERSION": "2024Q4",
+    "RUN_MODE": 9,
+    "RUN_MODE_SA": 604
+  },
+  "CONSTANT": {
+    "days_in_year": 365.25,
+    "days_in_month": 30.5
+  },
+  "SCENARIO_SETTING": {
+    "T_ZERO": 20240630,
+    "EXTEND_YR": 10,
+    "TOTAL_YR": 30,
+    "INPUT_DATA_EXT": "xlsx"
+  },
+  "DATA_IO_SETTING": {
+    "INPUT_DATA_EXT": "csv",
+    "INSTRUMENT_TABLE_NAME": "instrument_table",
+    "EXCHANGE_RATE_TABLE_NAME": "exchange_rate_table",
+    "REPAYMENT_TABLE_NAME": "repayment_table",
+    "SA_FS_TABLE_NAME": "sa_fs_table",
+    "SA_OTHER_DEBT_TABLE_NAME": "sa_other_debt_table"
+  },
+  "TEST_SETTING": {
+    "MUTE_EIR": "N",
+    "MUTE_STAGE_CONSISTENCY": "N"
+  }
+}
